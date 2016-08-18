@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641734661D63197600865FE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 641734651D63197600865FE3 /* main.m */; };
+		641734691D63197600865FE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 641734681D63197600865FE3 /* AppDelegate.m */; };
+		6417346C1D63197600865FE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417346B1D63197600865FE3 /* ViewController.m */; };
+		6417346F1D63197600865FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6417346D1D63197600865FE3 /* Main.storyboard */; };
+		641734711D63197600865FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641734701D63197600865FE3 /* Assets.xcassets */; };
+		641734741D63197600865FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641734721D63197600865FE3 /* LaunchScreen.storyboard */; };
+		6417347D1D6319AE00865FE3 /* CKShimmerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417347C1D6319AE00865FE3 /* CKShimmerLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		641734611D63197600865FE3 /* CKShimmerLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKShimmerLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		641734651D63197600865FE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		641734671D63197600865FE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		641734681D63197600865FE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6417346A1D63197600865FE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6417346B1D63197600865FE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6417346E1D63197600865FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		641734701D63197600865FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		641734731D63197600865FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		641734751D63197600865FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6417347B1D6319AE00865FE3 /* CKShimmerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKShimmerLabel.h; sourceTree = "<group>"; };
+		6417347C1D6319AE00865FE3 /* CKShimmerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKShimmerLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6417345E1D63197600865FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		641734581D63197600865FE3 = {
+			isa = PBXGroup;
+			children = (
+				641734631D63197600865FE3 /* CKShimmerLabel */,
+				641734621D63197600865FE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		641734621D63197600865FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				641734611D63197600865FE3 /* CKShimmerLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		641734631D63197600865FE3 /* CKShimmerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6417347E1D6319C000865FE3 /* CKShimmerLabel */,
+				641734671D63197600865FE3 /* AppDelegate.h */,
+				641734681D63197600865FE3 /* AppDelegate.m */,
+				6417346A1D63197600865FE3 /* ViewController.h */,
+				6417346B1D63197600865FE3 /* ViewController.m */,
+				6417346D1D63197600865FE3 /* Main.storyboard */,
+				641734701D63197600865FE3 /* Assets.xcassets */,
+				641734721D63197600865FE3 /* LaunchScreen.storyboard */,
+				641734751D63197600865FE3 /* Info.plist */,
+				641734641D63197600865FE3 /* Supporting Files */,
+			);
+			path = CKShimmerLabel;
+			sourceTree = "<group>";
+		};
+		641734641D63197600865FE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				641734651D63197600865FE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6417347E1D6319C000865FE3 /* CKShimmerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6417347B1D6319AE00865FE3 /* CKShimmerLabel.h */,
+				6417347C1D6319AE00865FE3 /* CKShimmerLabel.m */,
+			);
+			name = CKShimmerLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		641734601D63197600865FE3 /* CKShimmerLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641734781D63197600865FE3 /* Build configuration list for PBXNativeTarget "CKShimmerLabel" */;
+			buildPhases = (
+				6417345D1D63197600865FE3 /* Sources */,
+				6417345E1D63197600865FE3 /* Frameworks */,
+				6417345F1D63197600865FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKShimmerLabel;
+			productName = CKShimmerLabel;
+			productReference = 641734611D63197600865FE3 /* CKShimmerLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		641734591D63197600865FE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = caokun;
+				TargetAttributes = {
+					641734601D63197600865FE3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 6417345C1D63197600865FE3 /* Build configuration list for PBXProject "CKShimmerLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 641734581D63197600865FE3;
+			productRefGroup = 641734621D63197600865FE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				641734601D63197600865FE3 /* CKShimmerLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6417345F1D63197600865FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641734741D63197600865FE3 /* LaunchScreen.storyboard in Resources */,
+				641734711D63197600865FE3 /* Assets.xcassets in Resources */,
+				6417346F1D63197600865FE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6417345D1D63197600865FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6417346C1D63197600865FE3 /* ViewController.m in Sources */,
+				641734691D63197600865FE3 /* AppDelegate.m in Sources */,
+				6417347D1D6319AE00865FE3 /* CKShimmerLabel.m in Sources */,
+				641734661D63197600865FE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6417346D1D63197600865FE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6417346E1D63197600865FE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		641734721D63197600865FE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641734731D63197600865FE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		641734761D63197600865FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		641734771D63197600865FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		641734791D63197600865FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CKShimmerLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caokun.CKShimmerLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6417347A1D63197600865FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CKShimmerLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caokun.CKShimmerLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6417345C1D63197600865FE3 /* Build configuration list for PBXProject "CKShimmerLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641734761D63197600865FE3 /* Debug */,
+				641734771D63197600865FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641734781D63197600865FE3 /* Build configuration list for PBXNativeTarget "CKShimmerLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641734791D63197600865FE3 /* Debug */,
+				6417347A1D63197600865FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 641734591D63197600865FE3 /* Project object */;
+}
