@@ -1,4 +1,9 @@
 # shimmer-label
+
+
+![Aaron Swartz](http://code4app.com/data/attachment/forum/201608/22/155337hj125hcgbw5c7gg8.gif)
+
+
 闪光字体，支持多种闪光模式，用法简单，shimmer label shimmering
 
 话不多说，直接看代码吧，和 facebook 的效果一样，一行代码就能开启闪烁，可以自定义多种样式
