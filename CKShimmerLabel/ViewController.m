@@ -15,6 +15,7 @@
 @property (strong, nonatomic) CKShimmerLabel *label2;
 @property (strong, nonatomic) CKShimmerLabel *label3;
 @property (strong, nonatomic) CKShimmerLabel *label4;
+@property (strong, nonatomic) CKShimmerLabel *label5;
 
 @end
 
@@ -69,6 +70,15 @@
     [self.view addSubview:self.label4];
 
 //    [self.label4 stopShimmer];      // 停止闪烁
+    self.label5 = [[CKShimmerLabel alloc] init];
+    self.label5.frame = CGRectMake(20, 315, 200, 35);
+    self.label5.text = @"dfadsfasdfkadsfkasdfkasdjklsdahgjkshfkjhdsfjhads";
+    self.label5.font = [UIFont systemFontOfSize:20];
+    self.label5.numberOfLines = 2;
+    self.label5.durationTime = 1;
+    self.label5.adjustsFontSizeToFitWidth = YES;
+    [self.label5 startShimmer];
+    [self.view addSubview:self.label5];
 }
 
 @end

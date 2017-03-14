@@ -74,7 +74,7 @@
     // 刷新布局
     self.contentLabel.frame = self.bounds;
     self.maskLabel.frame = self.bounds;
-    self.maskLayer.frame = CGRectMake(0, 0, self.charSize.width, self.charSize.height);
+    self.maskLayer.frame = self.bounds;
 }
 
 #pragma mark - 属性 set, get 方法
@@ -121,6 +121,16 @@
     
     _font = font;
     self.contentLabel.font = font;
+    self.charSize = [self.contentLabel.text boundingRectWithSize:self.contentLabel.frame.size options:NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : self.contentLabel.font} context:nil].size;
+    [self update];
+}
+
+- (void)setAdjustsFontSizeToFitWidth:(BOOL)adjustsFontSizeToFitWidth {
+    if (_adjustsFontSizeToFitWidth == adjustsFontSizeToFitWidth) return;
+    
+    _adjustsFontSizeToFitWidth = adjustsFontSizeToFitWidth;
+    self.contentLabel.adjustsFontSizeToFitWidth = adjustsFontSizeToFitWidth;
+    [self.contentLabel sizeToFit];
     self.charSize = [self.contentLabel.text boundingRectWithSize:self.contentLabel.frame.size options:NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : self.contentLabel.font} context:nil].size;
     [self update];
 }
@@ -232,6 +242,7 @@
     dLabel.text = sLabel.text;
     dLabel.font = sLabel.font;
     dLabel.numberOfLines = sLabel.numberOfLines;
+    dLabel.adjustsFontSizeToFitWidth = sLabel.adjustsFontSizeToFitWidth;
 }
 
 - (CABasicAnimation *)translate {
