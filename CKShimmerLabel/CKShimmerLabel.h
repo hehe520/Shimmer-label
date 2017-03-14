@@ -24,6 +24,7 @@ typedef enum : NSUInteger {
 @property (strong, nonatomic) UIColor *textColor;
 @property (strong, nonatomic) NSAttributedString *attributedText;
 @property (assign, nonatomic) NSInteger numberOfLines;
+@property (assign, nonatomic) BOOL adjustsFontSizeToFitWidth;
 
 // CKShimmerLabel 属性
 @property (assign, nonatomic) ShimmerType shimmerType;          // 闪烁类型，默认LeftToRight
